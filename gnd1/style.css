@@ -1,0 +1,145 @@
+body{
+	background-color:#FF9;
+}
+.item {
+    max-width: 100%;
+}
+
+
+.jumbotron{
+	height: 350px;
+}
+#title{
+	margin-top: 50px;
+	font-size: 60px;
+}
+.container{
+	background-color: white;
+	border-radius: 60px;
+}
+  #services{
+  	color: white;
+            background-color: #e19e67;
+        }
+
+  #navcolor{
+  	background-color: white;
+  }
+
+  #menu2{
+  	color: black;
+            background-color: white;
+            border: 1px solid black;
+        }
+a{
+	
+	color: black;
+}
+ a:hover{
+text-decoration: none;
+color: #dfaf88;
+
+}
+a:link{
+	text-decoration: none;
+}
+
+#footer{
+	background-color: white;
+}
+
+#intro{
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+#history{
+	font-size: 17px;
+}
+
+#wordmark{
+	font-size: 40px;
+
+}
+
+.jumbotron{
+	height: 900px;
+}
+
+
+#modalimage{
+	width: 100%;
+}
+
+
+
+#form{
+	color: white;
+}
+#line{
+	border: 1px solid gray;
+}
+
+#thank{
+	font-size: 58px;
+}
+#success{
+	color: green;
+}
+#orderagain{
+	font-size: 25px;
+}
+
+
+
+
+/*===========Modal============*/
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
